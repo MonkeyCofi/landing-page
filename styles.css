@@ -1,0 +1,28 @@
+body {
+    display: flex;
+}
+
+/* Reset ul padding */
+ul {
+    padding: 0;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Select both li and a elements within the top links */
+.top-links > li, a {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.top > ul {
+    display: flex;
+    gap: 10px;
+}
