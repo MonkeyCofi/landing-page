@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
 body {
     display: flex;
     flex-direction: column;
     background-color: white;
     margin: 0;
     min-height: 100vh;
+    font-family: "Roboto", sans-serif;
 }
 
 /* Reset ul padding */
@@ -13,22 +16,37 @@ ul {
 
 
 /* Top section */
+.top-container, .footer{
+    background-color: #1f2937;
+    
+}
+
 .top-container{
-    background-color: #006aff;
+    padding-bottom: 40px;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .top {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-left: 10px;
+    padding: 0 13% 30px;
+    /* padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 30px; */
 }
 
 /* Select both li and a elements within the top links */
 .top-links > li, a {
     list-style-type: none;
     text-decoration: none;
+    color: white;
+}
+
+
+.top-container > *, .footer {
+    color: white;
 }
 
 .top > ul {
@@ -43,6 +61,30 @@ ul {
 
 .hero > * {
     flex-basis: 30vw;
+}
+
+.main-hero {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAf8;
+}
+
+.register {
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    padding: 6px 30px;
+}
+
+.register:hover {
+    background-color: #2e6aca;
+    cursor:pointer;
+}
+
+.register:active{
+    background-color: #214a8c;
 }
 
 
@@ -65,8 +107,21 @@ ul {
 }
 
 /* Quote in information section */
-.quote{
+.quote-container{
     display: flex;
-    background-color: #999;
+    background-color: #e5e7eb;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
 
+.footer {
+    text-align: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
 }
