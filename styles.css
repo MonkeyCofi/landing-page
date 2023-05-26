@@ -18,7 +18,6 @@ ul {
 /* Top section */
 .top-container, .footer{
     background-color: #1f2937;
-    
 }
 
 .top-container{
@@ -31,10 +30,7 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0 13% 30px;
-    /* padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 30px; */
+    padding: 0 20px 30px;
 }
 
 /* Select both li and a elements within the top links */
@@ -124,4 +120,21 @@ ul {
     font-weight: light;
     font-style: italic;
     color: #1f2937;
+}
+
+/* Call to action */
+.call {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+    background-color: #3882f6;
+    color: white;
+    width: 50%;
+    border-radius: 8px;
+}
+
+.call button {
+    border: 1px solid white;
+    border-radius: 8px;
 }
